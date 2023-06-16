@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main will have something
+ * main - will print something
  * Return: 0 if executed, else non zero
  */
 int main(void)
