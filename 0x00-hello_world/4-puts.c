@@ -1,7 +1,10 @@
 #include <stdio.h>
-/* This is 
+
+/**
+ *  This is 
  * a description
- * for the function we created */
+ * for the function we created
+ */
 int main(void)
 {
 	puts ("\"Programming is like building a multilingual puzzle");
