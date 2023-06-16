@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 
-/*
+/**
  * main - prints something
  * Return: 0 is executable, else non zero
  */
