@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - prints a diagonal
- * @n: number of _
+ * @n: number of \
  * Return: void
  */
 
@@ -13,7 +13,8 @@ void print_diagonal(int n)
 	else
 	{
 		int i, j;
-		for (i = 1; i <= n; i++)
+
+		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
 			{
