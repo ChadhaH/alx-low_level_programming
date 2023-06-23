@@ -2,16 +2,16 @@
 
 /**
  * print_numbers - function that print all numbers from 0 to 9
- * Return: returns nothing
+ * Return: void
  */
 
 void print_numbers(void)
 {
-	int number = 48;
-	
-	for (number = 48; number < 58; number++)
+	int num = 48;
+
+	for (num = 48; num < 58; num++)
 	{
-		_putchar(number);
+		_putchar(num);
 	}
 	_putchar(10);
 }
