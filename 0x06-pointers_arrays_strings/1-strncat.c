@@ -5,6 +5,7 @@
  * @dest: string 1
  * @src: string 2
  * @n: number of bytess
+ *
  * Return: dest string
  */
 
@@ -19,6 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		i++;
 	}
+
 	j = 0;
 
 	while (j < n && src[j] != '\0')
