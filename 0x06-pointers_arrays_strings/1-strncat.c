@@ -5,7 +5,7 @@
  * @dest: string 1
  * @src: string 2
  * @n: number of bytess
- * Return: char
+ * Return: dest string
  */
 
 char *_strncat(char *dest, char *src, int n)
