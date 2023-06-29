@@ -2,7 +2,8 @@
 
 /**
  * string_toupper - changes alllower to upper
- * @s: pointer 
+ * @s: pointer
+ * Return: @s
  */
 
 char *string_toupper(char *s)
