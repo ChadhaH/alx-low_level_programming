@@ -29,5 +29,5 @@ char *create_array(unsigned int size, char c)
 
 	*(p + i) = '\0';
 
-	return(p);
+	return (p);
 }
