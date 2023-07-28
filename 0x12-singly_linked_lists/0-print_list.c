@@ -3,7 +3,7 @@
 
 /**
  * print_list - prints a list
- * h: list
+ * @h: list
  * Return: number of nodes
  */
 
@@ -20,5 +20,6 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		s++;
 	}
+
 	return (s);
 }
