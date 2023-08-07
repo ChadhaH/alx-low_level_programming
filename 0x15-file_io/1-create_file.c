@@ -3,8 +3,8 @@
 
 /**
  * create_file - function
- * filename: name of the file
- * text_content: string to be written
+ * @filename: name of the file
+ * @text_content: string to be written
  * Return: 1 if success, 0 otherwise
  */
 
