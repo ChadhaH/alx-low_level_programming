@@ -1,0 +1,33 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * create_file - function
+ * filename: name of the file
+ * text_content: string to be written
+ * Return: 1 if success, 0 otherwise
+ */
+
+int create_file(const char *filename, char *text_content)
+{
+	int o, w, len = 0;
+
+	if (filename == NULL)
+		return (-1);
+
+	if (text_context != NULL)
+	{
+		for (len = 0; text_contect[len];)
+			len++;
+	}
+
+	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
+	w = write(o, text_context, len);
+
+	if (o == -1 || w == -1)
+		return (-1);
+
+	close(o);
+
+	return (1);
+}
